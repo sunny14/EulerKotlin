@@ -52,4 +52,10 @@ class Euler_1_to_10_Test {
     fun euler7getPrimeByIndexTest() {
         assertEquals(13, getPrimeByIndex(6))
     }
+
+    @Test
+    fun euler8Test()    {
+        assertEquals(5832, Euler8().euler8(4))
+    }
+
 }
