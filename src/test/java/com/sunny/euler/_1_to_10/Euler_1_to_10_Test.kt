@@ -47,4 +47,9 @@ class Euler_1_to_10_Test {
     fun euler6getSquareOfSumsTest() {
         assertEquals(3025, getSquareOfSums(10))
     }
+
+    @Test
+    fun euler7getPrimeByIndexTest() {
+        assertEquals(13, getPrimeByIndex(6))
+    }
 }
