@@ -18,4 +18,27 @@ and the square of the sum.
 
  */
 
+fun main() {
+    val limit = 100
+    println(getSquareOfSums(limit)- getSumOfSquares(limit))
+}
+
+fun getSumOfSquares (limit: Int): Int  {
+    var sum = 0;
+    for (i in 1..limit) {
+        sum += Math.pow(i.toDouble(), 2.toDouble()).toInt()
+    }
+
+    return sum;
+}
+
+
+fun getSquareOfSums (limit: Int): Int  {
+    var sum = 0;
+    for (i in 1..limit) {
+        sum += i
+    }
+
+    return Math.pow(sum.toDouble(), 2.toDouble()).toInt()
+}
 

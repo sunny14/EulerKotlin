@@ -35,4 +35,15 @@ class Euler_1_to_10_Test {
     fun euler5Test() {
         assertEquals(2520, euler5(10))
     }
+
+
+    @Test
+    fun euler6getSumOfSquaresTest() {
+        assertEquals(385, getSumOfSquares(10))
+    }
+
+    @Test
+    fun euler6getSquareOfSumsTest() {
+        assertEquals(3025, getSquareOfSums(10))
+    }
 }
