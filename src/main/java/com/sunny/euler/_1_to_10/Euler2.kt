@@ -1,4 +1,4 @@
-package com.sunny.euler
+package com.sunny.euler._1_to_10
 
 /*
 Even Fibonacci numbers

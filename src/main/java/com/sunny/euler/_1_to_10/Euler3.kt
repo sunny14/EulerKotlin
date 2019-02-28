@@ -1,4 +1,7 @@
-package com.sunny.euler
+package com.sunny.euler._1_to_10
+
+import com.sunny.euler.getFactors
+import com.sunny.euler.isPrime
 
 /*
 Largest prime factor

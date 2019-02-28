@@ -1,5 +1,9 @@
-package com.sunny.euler;
+package com.sunny.euler._30_to_40;
 
+import com.sunny.euler.Utils;
+import com.sunny.euler._30_to_40.Euler35;
+import junit.framework.TestCase;
+import org.junit.Ignore;
 import org.junit.Test;
 
 import static junit.framework.TestCase.assertEquals;
@@ -10,7 +14,7 @@ public class Euler35Test {
 
     @Test
     public void isPrimeTest()   {
-        assertTrue(Utils.isPrime(7));
+        TestCase.assertTrue(Utils.isPrime(7));
         assertFalse(Utils.isPrime(6));
     }
 
@@ -27,6 +31,7 @@ public class Euler35Test {
     }
 
     @Test
+    @Ignore
     public void euler35millionTest()   {
         assertEquals(55, Euler35.euler35(1_000_000));
     }

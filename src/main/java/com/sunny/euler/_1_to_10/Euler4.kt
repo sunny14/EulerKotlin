@@ -1,4 +1,6 @@
-package com.sunny.euler
+package com.sunny.euler._1_to_10
+
+import com.sunny.euler.isPalindrome
 
 /*
 Largest palindrome product
@@ -20,8 +22,8 @@ fun main() {
 fun euler4(numOfDigits: Int):Int    {
     var max = 0
 
-    val start = calculateStart(numOfDigits-1)
-    val finish = calculate_10_inPow(numOfDigits-1)
+    val start = calculateStart(numOfDigits - 1)
+    val finish = calculate_10_inPow(numOfDigits - 1)
     for (i in start downTo finish) {
         for (j in start downTo finish) {
             val product = i*j
@@ -38,7 +40,7 @@ fun calculateStart(numOfDigits: Int): Int {
     var digitsCounter = numOfDigits
     var result = 0;
     while (digitsCounter >= 0)  {
-        result += 9*calculate_10_inPow(digitsCounter)
+        result += 9* calculate_10_inPow(digitsCounter)
         digitsCounter = digitsCounter.dec()
     }
 

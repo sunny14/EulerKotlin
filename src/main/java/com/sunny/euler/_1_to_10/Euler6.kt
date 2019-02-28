@@ -1,4 +1,4 @@
-package com.sunny.euler
+package com.sunny.euler._1_to_10
 
 /*
 Sum square difference
@@ -20,7 +20,7 @@ and the square of the sum.
 
 fun main() {
     val limit = 100
-    println(getSquareOfSums(limit)- getSumOfSquares(limit))
+    println(getSquareOfSums(limit) - getSumOfSquares(limit))
 }
 
 fun getSumOfSquares (limit: Int): Int  {

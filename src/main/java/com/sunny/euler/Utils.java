@@ -2,12 +2,11 @@ package com.sunny.euler;
 
 import java.util.HashSet;
 import java.util.Set;
-import java.util.stream.IntStream;
 
 public class Utils {
 
 
-    static boolean isPrime(int num)   {
+    public static boolean isPrime(int num)   {
         for (int i=2; i <= (num+1)/2; i++)   {
 
             if (i>3 && i % 3 == 0)  {
@@ -29,7 +28,8 @@ public class Utils {
         return true;
     }
 
-    static boolean isPandigital(String numStr, int limit)    {
+    //TODO: fix
+    public static boolean isPandigital(String numStr, int limit)    {
         if (numStr.length() != limit)   {
             System.out.println("numStr.length()="+numStr.length());
             return false;

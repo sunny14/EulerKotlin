@@ -1,5 +1,8 @@
-package com.sunny.euler;
+package com.sunny.euler._30_to_40;
 
+import com.sunny.euler.Utils;
+import com.sunny.euler._30_to_40.Euler38;
+import junit.framework.TestCase;
 import org.junit.Test;
 
 import static junit.framework.TestCase.assertEquals;
@@ -18,6 +21,6 @@ public class Euler38Test {
 
     @Test
     public void isPandigitalTest()  {
-        assertTrue(Utils.isPandigital("192384576", 9));
+        TestCase.assertTrue(Utils.isPandigital("192384576", 9));
     }
 }

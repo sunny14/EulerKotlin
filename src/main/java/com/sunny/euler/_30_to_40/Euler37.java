@@ -1,4 +1,6 @@
-package com.sunny.euler;
+package com.sunny.euler._30_to_40;
+
+import com.sunny.euler.Utils;
 
 /**
  * Truncatable primes

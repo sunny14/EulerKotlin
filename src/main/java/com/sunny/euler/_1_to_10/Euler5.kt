@@ -1,4 +1,4 @@
-package com.sunny.euler
+package com.sunny.euler._1_to_10
 
 /*
 Smallest multiple
@@ -22,7 +22,7 @@ fun euler5(limit: Int):Int  {
     var isFound = false
 
     while ( !isFound ) {
-        if ( isDividableByRange(limit, num) )   {
+        if (isDividableByRange(limit, num))   {
             isFound = true
             num--
         }

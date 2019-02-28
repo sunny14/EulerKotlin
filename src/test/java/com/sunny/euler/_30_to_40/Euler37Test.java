@@ -1,5 +1,6 @@
-package com.sunny.euler;
+package com.sunny.euler._30_to_40;
 
+import com.sunny.euler._30_to_40.Euler37;
 import org.junit.Test;
 
 import static junit.framework.TestCase.assertTrue;

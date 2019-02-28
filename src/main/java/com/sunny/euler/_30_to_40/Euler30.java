@@ -1,4 +1,4 @@
-package com.sunny.euler;
+package com.sunny.euler._30_to_40;
 
 
 /**
