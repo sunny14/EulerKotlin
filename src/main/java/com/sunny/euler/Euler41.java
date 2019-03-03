@@ -23,7 +23,7 @@ public class Euler41 {
                 System.out.println("processing "+i);
              ////   continue;
             }
-            if (Utils.isPandigital(String.valueOf(i), 9) && Utils.isPrime(i))   {
+            if (Utils.isPandigital(String.valueOf(i), 9) && Utils.isPrimeOld(i))   {
                 System.out.println(i);
                 break;
             }

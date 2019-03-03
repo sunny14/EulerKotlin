@@ -58,4 +58,10 @@ class Euler_1_to_10_Test {
         assertEquals(5832, Euler8().euler8(4))
     }
 
+
+    @Test
+    fun euler10Test()   {
+        assertEquals(17, getSumOfPrimesBelow(10))
+    }
+
 }

@@ -1,6 +1,6 @@
 package com.sunny.euler._1_to_10
 
-import com.sunny.euler.isPrime
+import com.sunny.euler.isPrimeLong
 
 /*
 10001st prime
@@ -25,7 +25,7 @@ fun getPrimeByIndex(index: Int):Long   {
     var primesCount = 0
     var num = 2L
     while (primesCount < index) {
-        if ( isPrime(num) ) {
+        if ( isPrimeLong(num) ) {
             primesCount ++
         }
         if (primesCount < index) {

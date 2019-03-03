@@ -1,7 +1,7 @@
 package com.sunny.euler._1_to_10
 
 import com.sunny.euler.getFactors
-import com.sunny.euler.isPrime
+import com.sunny.euler.isPrimeLong
 
 /*
 Largest prime factor
@@ -25,7 +25,7 @@ fun euler3(num: Long, acceptableDivider: Int): Long   {
     var max = 0L;
     for (i in set)    {
 
-        if (i> max && isPrime(i))   {
+        if (i> max && isPrimeLong(i))   {
             max = i
             println(max)
         }

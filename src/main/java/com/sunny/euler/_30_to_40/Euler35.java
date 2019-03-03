@@ -32,7 +32,7 @@ public class Euler35 {
 
     static boolean isCircularPrime(int num)    {
 
-        if ( !Utils.isPrime(num))  {
+        if ( !Utils.isPrimeOld(num))  {
             return false;
         }
 
@@ -41,7 +41,7 @@ public class Euler35 {
 
         do {
 
-            if ( !Utils.isPrime(shiftedNum))    {
+            if ( !Utils.isPrimeOld(shiftedNum))    {
                 return false;
             }
             if (shiftedNum != num) {

@@ -22,7 +22,22 @@ fun getFactors(num: Long, acceptableDivider: Int=2): LinkedHashSet<Long> {
 }
 
 
-fun isPrime(num: Long): Boolean  {
+fun isPrime(num: Int): Boolean  {
+    if ( num > 2 && num % 2 == 0 ) {
+        return false;
+    }
+
+
+    for (i in 3..num-1 step 2)    {
+        if (num % i == 0)   {
+            return false
+        }
+    }
+
+    return true
+}
+
+fun isPrimeLong(num: Long): Boolean  {
     if ( num > 2 && num % 2 == 0L ) {
         return false;
     }

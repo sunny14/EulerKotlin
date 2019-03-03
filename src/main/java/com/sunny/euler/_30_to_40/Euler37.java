@@ -45,10 +45,10 @@ public class Euler37 {
 
         //will not happen
       /*  if (num < 8)    {
-            return Utils.isPrime(num);
+            return Utils.isPrimeOld(num);
         }*/
 
-        if ( !Utils.isPrime(num) )  {
+        if ( !Utils.isPrimeOld(num) )  {
             return false;
         }
 

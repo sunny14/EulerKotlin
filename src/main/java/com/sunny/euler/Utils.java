@@ -6,7 +6,7 @@ import java.util.Set;
 public class Utils {
 
 
-    public static boolean isPrime(int num)   {
+    public static boolean isPrimeOld(int num)   {
         for (int i=2; i <= (num+1)/2; i++)   {
 
             if (i>3 && i % 3 == 0)  {
