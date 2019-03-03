@@ -51,7 +51,7 @@ class Euler8 {
         }
 
         var product = 1L
-        for (i in 0..str.length - 1) {
+        for (i in str.indices) {
             product = product * (str.get(i).toInt() - 48)
         }
 
