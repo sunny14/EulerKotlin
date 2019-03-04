@@ -1,6 +1,5 @@
 package com.sunny.euler._1_to_10
 
-import com.sunny.euler._1_to_10.*
 import org.junit.Test
 import kotlin.test.assertEquals
 
